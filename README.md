@@ -4,8 +4,10 @@ Colorful ping utility using Rich.
 I needed an excuse to use Rich, so I built this simple multi-ping utility.  The ping metrics for one or more IPs are displayed in a Live Rich Table.
 
 ## Usage
-To ping CloudFlare, Google, and Quad9 DNS servers 60 times...
-> python mping.py -c 60 1.1.1.1 8.8.8.8 9.9.9.9
+To ping CloudFlare, Google, and Quad9 DNS servers 30 times...
+> python mping.py -c 30 1.1.1.1 8.8.8.8 9.9.9.9
+
+![example](https://github.com/chalvorson/mping/raw/main/cY8C5FgpTF.png "Example Usage")
 
 To ping until interrupted (ie. Ctrl-C), use -c 0
 > python mping.py -c 0 192.168.1.1 1.1.1.1
