@@ -10,6 +10,8 @@ To ping CloudFlare, Google, and Quad9 DNS servers 60 times...
 To ping until interrupted (ie. Ctrl-C), use -c 0
 > python mping.py -c 0 192.168.1.1 1.1.1.1
 
+**Note:** You may omit the -c and it will ping the IPs 5 times by default.
+
 The app depends on three main libraries.
 - [Rich](https://rich.readthedocs.io/en/latest/) ([PyPI](https://pypi.org/project/rich/)) 
 - [Pythonping](https://github.com/alessandromaggio/pythonping) ([PyPI](https://pypi.org/project/pythonping/))
